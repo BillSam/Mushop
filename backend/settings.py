@@ -201,6 +201,4 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 #AWS_STORAGE_BUCKET_NAME = 'proshop-bucket-demo'
 
-
-if os.getcwd() == '/app':
-    DEBUG = False
+DEBUG = False
